@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding:20px 40px;
+    background-color: black;
+    color: antiquewhite;
+}
+body{
+    /* global 92%+ browsers support */
+    /* background: radial-gradient(circle at 88% 52%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);  */
+    background: rgba(0,4,15,1);
+}
+.btn{
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(76, 175, 154, 1) 0%, rgba(23, 109, 120, 1) 88%);
+}
+.box{
+    /* global 94%+ browsers support */
+    background:linear-gradient(
+        -168.39deg,
+        #ffffff -278.56%,
+        #6d6d6d -78.47%,
+        #11101d 91.61%
+      );
+}
+.hover:hover{
+    background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+.disc{
+    background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);;
+}
+.nav:hover{
+    transform: scale(1.5) rotate(12deg);
+    color:cadetblue;
+}
+.round:hover{
+    transform: scale(1.5);
+}
